@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 3.8)
 project(interfaces)
 
+# Based on the ROS2 interfaces tutorial https://docs.ros.org/en/iron/Tutorials/Beginner-Client-Libraries/Custom-ROS2-Interfaces.html
+
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
 endif()
